@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>AgentFire.Performance.SystemClock</id>
+    <version>1.0.0.0</version>
+    <title>System Clock Performance Tool</title>
+    <authors>AgentFire</authors>
+    <owners>AgentFire</owners>
+    <projectUrl>https://github.com/AgentFire/AgentFire.Performance.SystemClock</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Represents a way to change system clock's resolution in a very simple manner.</description>
+    <releaseNotes>First release.</releaseNotes>
+    <copyright>Copyright (c) AgentFire</copyright>
+    <tags>system-clock, thread.sleep, performance, agentfire</tags>
+  </metadata>
+</package>
