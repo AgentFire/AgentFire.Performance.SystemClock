@@ -1,1 +1,0 @@
-nuget push %1 oy2ebensobs2ihvg6fnap4jcoexw7d4unihvdksdlcr4e4 -Source https://www.nuget.org/api/v2/package
