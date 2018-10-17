@@ -1,9 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System Clock", "System Clock\System Clock.csproj", "{F72DFC7C-4FFE-4EC6-841F-C66321D96941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test App", "Test App\Test App.csproj", "{CD5984B2-4931-47EF-A8A7-A107F4F0533A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD6896A6-AC2A-414A-9CED-2B3EABF4358A}"
+	ProjectSection(SolutionItems) = preProject
+		System Clock\1. Nuget Pack.bat = System Clock\1. Nuget Pack.bat
+		System Clock\2. Nuget Push %1.bat = System Clock\2. Nuget Push %1.bat
+		System Clock\nuget.exe = System Clock\nuget.exe
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +24,15 @@ Global
 		{F72DFC7C-4FFE-4EC6-841F-C66321D96941}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F72DFC7C-4FFE-4EC6-841F-C66321D96941}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F72DFC7C-4FFE-4EC6-841F-C66321D96941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD5984B2-4931-47EF-A8A7-A107F4F0533A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD5984B2-4931-47EF-A8A7-A107F4F0533A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD5984B2-4931-47EF-A8A7-A107F4F0533A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD5984B2-4931-47EF-A8A7-A107F4F0533A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D814F7D0-1694-4D01-95AD-D9E0AB199274}
 	EndGlobalSection
 EndGlobal

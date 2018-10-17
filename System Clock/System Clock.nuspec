@@ -8,9 +8,9 @@
     <owners>AgentFire</owners>
     <projectUrl>https://github.com/AgentFire/AgentFire.Performance.SystemClock</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Contains some helpful Linq-to-Sql (DataContext-based) classes, which help you simplify your basic CRUD operations.</description>
-    <releaseNotes>Changed the DDL name.</releaseNotes>
+    <description>Represents a way to change system clock's resolution in a very simple manner.</description>
+    <releaseNotes>First release.</releaseNotes>
     <copyright>Copyright (c) AgentFire</copyright>
-    <tags>sql linq-to-sql datacontext transaction crud database</tags>
+    <tags>system-clock, thread.sleep, performance, agentfire</tags>
   </metadata>
 </package>
