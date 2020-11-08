@@ -43,13 +43,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\System Clock\System Clock.csproj">
-      <Project>{F72DFC7C-4FFE-4EC6-841F-C66321D96941}</Project>
-      <Name>System Clock</Name>
-    </ProjectReference>
+    <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <ProjectReference Include="..\System Clock Dll\System Clock Dll.csproj">
+      <Project>{45b0c4f1-9f5f-4ea1-b924-3e2deb112a10}</Project>
+      <Name>System Clock Dll</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
